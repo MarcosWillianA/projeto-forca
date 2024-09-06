@@ -1,0 +1,20 @@
+1. Criar os elementos HTML necessários 
+2. Criar a imagem do boneco da forca (CSS)
+3. Iniciar o javascript: 
+
+	Antes do jogo: botão de iniciar
+
+	Durante o jogo: 
+
+	- Criar uma lista de categorias e dentro dessas categorias, uma lista de palavras que serão usadas;
+	- Criar um jeito de escolher uma palavra dessa lista aleatoriamente e exibi-la no elemento html adequado;
+	- Criar elementos html que sirvam de letreiro onde serão exibidas as letras corretas: o número deles é baseado na quantidade de letras que a palavra escolhida tem; 
+	- Ao escolher uma letra, verificar se a palavra escolhida possui a letra: 
+		- Caso possua, mostrar a letra em um elemento html adequado;
+		- Caso não possua, mostrar uma parte do boneco na forca; 
+	- As letras escolhidas serão exibidas em um elemento html adequado; os botões de letras já escolhidos ficam desabilitados; 
+	- Se todas as letras da palavra forem encontradas, o jogo encerra com uma tela de vitória
+	- Se o número de letras erradas for 5, o jogo encerra com uma tela de derrota
+
+	Fim do jogo: Um botão para tentar de novo que reinicia o código
+

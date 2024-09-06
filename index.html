@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forca Online (Alfa)</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Forca </h1>
+        <button id="iniciarJogo">INICIAR</button>
+    </header>
+    <main>
+        <div id="container">
+            <div id="forca">
+                <picture>
+                    <img src="img/forca.png" alt="Forca">
+                </picture>
+            </div>
+            <div id="letreiro">
+                <h2 id="dicaDaPalavra">Dica: </h2>
+                <div id="exibirLetras">
+                    <!-- <input type="text" class="letrasCertas" disabled value="A"> --> <!-- Esse elemento será inserido com javascript!-->
+                </div>
+                <p id="letrasUsadas">Letras usadas: </p>
+            </div>
+            <div id="teclas">
+                <div id="teclado">
+                    <button id="letraA" class="teclaLetra" onclick="escolherLetra('a')" value="a">a</button>
+                    <button id="letraB" class="teclaLetra" onclick="escolherLetra('b')" value="b">b</button>
+                    <button id="letraC" class="teclaLetra" onclick="escolherLetra('c')" value="c">c</button>
+                    <button id="letraÇ" class="teclaLetra" onclick="escolherLetra('ç')" value="ç">ç</button>
+                    <button id="letraD" class="teclaLetra" onclick="escolherLetra('d')" value="d">d</button>
+                    <button id="letraE" class="teclaLetra" onclick="escolherLetra('e')" value="e">e</button>
+                    <button id="letraF" class="teclaLetra" onclick="escolherLetra('f')" value="f">f</button>
+                    <button id="letraG" class="teclaLetra" onclick="escolherLetra('g')" value="g">g</button>
+                    <button id="letraH" class="teclaLetra" onclick="escolherLetra('h')" value="h">h</button>
+                    <button id="letraI" class="teclaLetra" onclick="escolherLetra('i')" value="i">i</button>
+                    <button id="letraJ" class="teclaLetra" onclick="escolherLetra('j')" value="j">j</button>
+                    <button id="letraK" class="teclaLetra" onclick="escolherLetra('k')" value="k">k</button>
+                    <button id="letraL" class="teclaLetra" onclick="escolherLetra('l')" value="l">l</button>
+                    <button id="letraM" class="teclaLetra" onclick="escolherLetra('m')" value="m">m</button>
+                    <button id="letraN" class="teclaLetra" onclick="escolherLetra('n')" value="n">n</button>
+                    <button id="letraO" class="teclaLetra" onclick="escolherLetra('o')" value="o">o</button>
+                    <button id="letraP" class="teclaLetra" onclick="escolherLetra('p')" value="p">p</button>
+                    <button id="letraQ" class="teclaLetra" onclick="escolherLetra('q')" value="q">q</button>
+                    <button id="letraR" class="teclaLetra" onclick="escolherLetra('r')" value="r">r</button>
+                    <button id="letraS" class="teclaLetra" onclick="escolherLetra('s')" value="s">s</button>
+                    <button id="letraT" class="teclaLetra" onclick="escolherLetra('t')" value="t">t</button>
+                    <button id="letraU" class="teclaLetra" onclick="escolherLetra('u')" value="u">u</button>
+                    <button id="letraV" class="teclaLetra" onclick="escolherLetra('v')" value="v">v</button>
+                    <button id="letraW" class="teclaLetra" onclick="escolherLetra('w')" value="w">w</button>
+                    <button id="letraX" class="teclaLetra" onclick="escolherLetra('x')" value="x">x</button>
+                    <button id="letraY" class="teclaLetra" onclick="escolherLetra('y')" value="y">y</button>
+                    <button id="letraZ" class="teclaLetra" onclick="escolherLetra('z')" value="z">z</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Criado por Marcos Willian</p>
+    </footer>
+
+    <script src="script/script.js">
+        
+    </script>
+</body>
+</html>

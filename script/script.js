@@ -1,3 +1,6 @@
+//Armazenar itens HTML
+const teclaLetra = document.querySelectorAll('.teclaletra');
+
 // Criar uma lista de categorias e dentro dessas categorias, uma lista de palavras que serão usadas;
 
 const paises = ['moçambique', 'tunisia', 'chile', 'espanha', 'lituania', 'china', 'mongolia'];
@@ -79,6 +82,7 @@ const botoesLetras = document.querySelector('.teclaLetra');
 
         letrasArrayEscolhida.split('').forEach((letra, indice) => {
             if (letraClicada === letra) {
+
                 letreirosCriados[indice].value = letra;
                 letrasUsadas.textContent += `${letraClicada}`;
             }            
